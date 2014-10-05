@@ -35,7 +35,7 @@ $(function() {
 
 	//Loading new data function, the last parameter is to let masonary know
 	//To create an all new object or just reload
-	function loadData(time, count, score, meta, reload) {
+	function loadData(count, time, score, meta, reload) {
 		//Laad nieuwe items
 		$.getJSON('ajax/getitems.php', {
 			fuegoHours : time,
