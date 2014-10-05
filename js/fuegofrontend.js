@@ -38,8 +38,8 @@ $(function() {
 	function loadData(count, time, score, meta, reload) {
 		//Laad nieuwe items
 		$.getJSON('ajax/getitems.php', {
-			fuegoHours : time,
 			fuegoQuantity : count,
+			fuegoHours : time,
 			fuegoScoring : score,
 			fuegoMetadata : meta
 		}, function(data) {
